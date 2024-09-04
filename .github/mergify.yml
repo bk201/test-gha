@@ -5,6 +5,9 @@ pull_request_rules:
     - label="backport-to-v1.4"
   actions:
     backport:
+      branches:
+        - v1.4
+        - v1.3
       regexes:
         - "^backport-to-(.*)"
       assignees:
