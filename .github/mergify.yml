@@ -7,9 +7,6 @@ pull_request_rules:
     backport:
       branches:
         - v1.4
-        - v1.3
-      regexes:
-        - "^backport-to-(.*)"
       assignees:
         - "{{ author }}"
 
